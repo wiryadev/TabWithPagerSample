@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val viewPager = binding.viewPager
         val tabs = binding.tabs
+
         val homePagerAdapter = HomePagerAdapter(this)
         viewPager.adapter = homePagerAdapter
 
